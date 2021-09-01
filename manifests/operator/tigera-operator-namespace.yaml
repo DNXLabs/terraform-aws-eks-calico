@@ -1,0 +1,8 @@
+# Source: aws-calico/templates/tigera-operator/00-namespace-tigera-operator.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tigera-operator
+  annotations:
+  labels:
+    name: tigera-operator

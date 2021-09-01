@@ -1,0 +1,6 @@
+# Source: aws-calico/templates/tigera-operator/02-serviceaccount-tigera-operator.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: tigera-operator
+  namespace: tigera-operator
