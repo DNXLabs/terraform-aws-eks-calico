@@ -15,6 +15,30 @@ module "calico" {
 
 <!--- BEGIN_TF_DOCS --->
 
+## Requirements
+
+| Name | Version |
+|------|---------|
+| terraform | >= 0.13 |
+| aws | >= 3.13, < 4.0 |
+| kubectl | >= 1.9.4 |
+| kubernetes | >= 1.10.0, < 3.0.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| kubectl | >= 1.9.4 |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| enabled | Variable indicating whether deployment is enabled. | `bool` | `true` | no |
+
+## Outputs
+
+No output.
 
 <!--- END_TF_DOCS --->
 
