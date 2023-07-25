@@ -35,6 +35,7 @@ module "calico" {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | enabled | Variable indicating whether deployment is enabled. | `bool` | `true` | no |
+| tigera\_operator\_version | n/a | `string` | `"v1.30.4"` | no |
 
 ## Outputs
 
