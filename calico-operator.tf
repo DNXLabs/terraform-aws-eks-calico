@@ -1,5 +1,8 @@
 data "kubectl_path_documents" "operator_manifests" {
   pattern = "${path.module}/manifests/operator/*.yaml"
+  vars = {
+    tigera_operator_version = var.tigera_operator_version
+  }
 }
 
 resource "kubectl_manifest" "calico_operator" {
