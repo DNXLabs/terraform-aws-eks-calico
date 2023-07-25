@@ -5,6 +5,6 @@ variable "enabled" {
 }
 
 variable "tigera_operator_version" {
-  type = string
+  type    = string
   default = "v1.30.4"
 }
