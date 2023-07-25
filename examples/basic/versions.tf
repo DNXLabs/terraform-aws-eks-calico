@@ -5,8 +5,9 @@ terraform {
     aws        = ">= 3.13.0"
     local      = ">= 1.4"
     random     = ">= 2.1"
-    kubernetes = "~> 1.10"
+    kubernetes = ">= 1.10"
     helm       = ">= 1.0"
+    tls        = "< 4.0"
     kubectl = {
       source  = "gavinbunney/kubectl"
       version = ">= 1.9.4"
